@@ -8,7 +8,7 @@ int main()
 {
 
 	ShowWindow(GetConsoleWindow(), SW_HIDE);  //hides the console
-	//gives users a messagebox with an explanation/tutorial
+	//gives user a messagebox with an explanation/tutorial
 	MessageBox(NULL, "Thank you for using Tea Clicker, it will be running in the background, don't worry about it, nothing's wrong it is meant to be hidden like this, to close the autoclicker simply press F4. The cps is randomized between 9 and 11 cps, you autoclick by holding your middle mouse button down. Why is this undetectable? Because it clicks exactly like a real person would.", "Tea Clicker", 0);
 
 	while(true)
