@@ -18,7 +18,7 @@ int main()
 		if(GetAsyncKeyState(VK_MBUTTON))  //Mouse middle button (wheel click)
 		{ 
 			//IMPORTANT: you can remove the two Sleeps and just use Sleep(rand() % 250); which is basically 9-12 cps.
-			//I just think doing it this way is more consistent for PvP, but using this method is more detectable as well.
+			//I just think doing it this way is more consistent for PvP, but using my method is more detectable as well.
 	Sleep(28);  //this
 		mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0);
 	Sleep(39); //this
